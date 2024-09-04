@@ -1,5 +1,7 @@
 package com.yogi.firstjobapp.company;
 
-public interface CompanyRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CompanyRepo extends JpaRepository<Company,Long> {
 
 }
